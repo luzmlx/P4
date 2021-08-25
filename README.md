@@ -58,7 +58,7 @@ https://www.figma.com/file/444k4mrA4VeJX2VulFgus8/Sweet-Treats?node-id=0%3A1
 
 #### Component Tree
 
-https://lucid.app/lucidchart/invitations/accept/inv_795de351-f8cf-4810-b616-ce506a38a82f?viewport_loc=-11%2C11%2C888%2C979%2C0_0
+https://lucid.app/lucidchart/invitations/accept/inv_dcc70f81-9e3f-4458-845d-ca8412888fbb
 
 
 #### Component Architecture
