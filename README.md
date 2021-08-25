@@ -101,7 +101,7 @@ src
 | Controllers |    H     |     3.5 hrs      |      hrs     |         |
 | Migration    |    L     |     2 hrs      |      hrs     |        |
 | CSS Styling |    H     |     3.5 hrs      |      hrs     |          |
-| TOTAL               |      29hrs    |     6 hrs      |          |          |
+| TOTAL               |          |     29 hrs      |          |          |
 
 
 
