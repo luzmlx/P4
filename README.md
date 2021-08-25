@@ -2,30 +2,11 @@
 
 # PROJECT 4 README <!-- omit in toc -->
 
-> The Project Planning section **should be completed** for your project pitch with instructors.
->
-> To ensure correct Markdown, copy and paste the raw template code into your project repo README file. Remove ALL template instructions and replace with your project details.
-
-- [Overview](#overview)
-- [MVP](#mvp)
-  - [Goals](#goals)
-  - [Libraries and Dependencies](#libraries-and-dependencies)
-  - [Client (Front End)](#client-front-end)
-    - [Wireframes](#wireframes)
-    - [Component Tree](#component-tree)
-    - [Component Architecture](#component-architecture)
-    - [Time Estimates](#time-estimates)
-  - [Server (Back End)](#server-back-end)
-    - [ERD Model](#erd-model)
-- [Post-MVP](#post-mvp)
-- [Code Showcase](#code-showcase)
-- [Code Issues & Resolutions](#code-issues--resolutions)
-
 <br>
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_**Sweet Treats** is a bakery shopping application where you can shop for your favorite treats and add them to your cart.
 
 
 <br>
@@ -36,29 +17,31 @@ _**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum ri
 
 _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
 
+MVP 
+  -Full CRUD
+  -Create User(Customer), Sign In, Sign Out
+  -Add Products
+  -Media Query
+  -Responsive Buttons
 <br>
 
 ### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- Reach MVP and have a working, responsive web application.
 
 <br>
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
+
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|      Ruby       | Language used to create web application|
+|   Bundle   | _Lorem ipsum dolor sit amet, consectetur._ |
+| Rails | _Lorem ipsum dolor sit amet, consectetur._ |
+|     React      | JS Library for building UI |
+|  Axios   | For API requests |
 
 <br>
 
@@ -66,7 +49,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
+https://www.figma.com/file/444k4mrA4VeJX2VulFgus8/Sweet-Treats?node-id=0%3A1
 
 
 
@@ -104,19 +87,19 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Navbar    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Footer |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Homepage    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| SignIn/Register |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Sign Out    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| ProductPage |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Cart Page    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Individual Product Pg |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Media Query    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Hamburger Menu |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Deployment    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Controllers |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Migration    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
 | Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
 | Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
@@ -143,14 +126,15 @@ https://drive.google.com/file/d/1NLrBSCbOl1LBagshOpdLcZ9Yi5ejrHC9/view?usp=shari
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+- Make Menu in Mobile Version of menupage a dropdown menu
+- Make Homepage image a slideshow
 
 ***
 
 ## Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+
 
 ## Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution.
+
