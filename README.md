@@ -6,7 +6,7 @@
 
 ## Overview
 
-_**Sweet Treats** is a bakery shopping application where you can shop for your favorite treats and add them to your cart.
+**Sweet Treats** is a bakery application where you can add a cake item and update it.
 
 
 <br>
@@ -21,7 +21,7 @@ MVP
   
   -Create User(Customer), Sign In, Sign Out
   
-  -Add Products
+  -Build Ruby on Rails server
   
   -Media Query
   
