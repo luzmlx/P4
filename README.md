@@ -103,8 +103,11 @@ src
 | Deployment    |    L     |     1 hrs      |      hrs     |     hrs    |
 | Controllers |    H     |     3.5 hrs      |      hrs     |         |
 | Migration    |    L     |     2 hrs      |      hrs     |        |
-| CSS Styling |    H     |     3.5 hrs      |      hrs     |          |
-| TOTAL               |          |     29 hrs      |          |          |
+| CSS Styling |    H     |     4 hrs      |      hrs     |          |
+| CRUD    |    L     |     3 hrs      |      hrs     |        |
+| Full Auth(front and backend) |    H     |     4 hrs      |      hrs     |          |
+| Testing |    H     |     1 hrs      |      hrs     |          |
+| TOTAL               |          |     37.5 hrs      |          |          |
 
 
 
@@ -127,6 +130,8 @@ https://drive.google.com/file/d/1NLrBSCbOl1LBagshOpdLcZ9Yi5ejrHC9/view?usp=shari
 
 - Make Menu in Mobile Version of menupage a dropdown menu
 - Make Homepage image a slideshow
+- Cart Page and functioning Order Buttons
+- Add more categories(cupcakes, pie, cookies) with full CRUD 
 
 ***
 
