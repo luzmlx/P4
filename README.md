@@ -16,6 +16,7 @@ _**Sweet Treats** is a bakery shopping application where you can shop for your f
 
 
 MVP 
+
   -Full CRUD
   
   -Create User(Customer), Sign In, Sign Out
