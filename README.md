@@ -40,8 +40,8 @@ MVP
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
 |      Ruby       | Language used to create web application|
-|   Bundle   | _Lorem ipsum dolor sit amet, consectetur._ |
-| Rails | _Lorem ipsum dolor sit amet, consectetur._ |
+|   Bundle   | ensures Ruby Application uses the same exact gems and versions I need |
+| Rails | provides code structure |
 |     React      | JS Library for building UI |
 |  Axios   | For API requests |
 
