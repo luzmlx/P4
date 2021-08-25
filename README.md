@@ -68,35 +68,12 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-![Dummy Link](url)
 
-- Desktop Landing
-
-![Dummy Link](url)
-
-- Desktop Hero
-
-![Dummy Link](url)
-
-- Resource Index
-
-![Dummy Link](url)
-
-- Resource Show
-
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
 
 #### Component Tree
 
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. Include a link to your component tree
+https://lucid.app/lucidchart/invitations/accept/inv_795de351-f8cf-4810-b616-ce506a38a82f?viewport_loc=-11%2C11%2C888%2C979%2C0_0
 
-[Component Tree Sample](https://gist.git.generalassemb.ly/davidtwhitlatch/414107e2560ae0bb65e233570f2fe056#file-component-tree-png)
 
 #### Component Architecture
 
@@ -112,6 +89,11 @@ src
       |__ mockups
 |__ components/
       |__ Header.jsx
+      |__ NavBar.jsx
+      |__ HomePage.jsx
+      |__ Products.jsx
+      |__ SignIn.jsx
+      |__ Register.jsx
 |__ services/
 
 ```
@@ -124,9 +106,25 @@ src
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
 | Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
 | Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+
 
 <br>
 
