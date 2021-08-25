@@ -87,25 +87,21 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Navbar    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Footer |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Homepage    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| SignIn/Register |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Sign Out    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| ProductPage |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Cart Page    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Individual Product Pg |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Media Query    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Hamburger Menu |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Deployment    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Controllers |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Migration    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Navbar    |    L     |     .5 hrs      |      hrs     |     hrs    |
+| Footer |    H     |     .5 hrs      |      hrs     |          |
+| Homepage    |    L     |     2 hrs      |      hrs     |     hrs    |
+| SignIn/Register |    H     |     2 hrs      |      hrs     |          |
+| Sign Out    |    L     |     2 hrs      |      hrs     |     hrs    |
+| ProductPage |    H     |     2 hrs      |      hrs     |          |
+| Cart Page    |    L     |     2 hrs      |      hrs     |     hrs    |
+| Individual Product Pg |    H     |     2 hrs      |      hrs     |          |
+| Media Query    |    L     |     4 hrs      |      hrs     |     hrs    |
+| Hamburger Menu |    H     |     2 hrs      |      hrs     |          |
+| Deployment    |    L     |     1 hrs      |      hrs     |     hrs    |
+| Controllers |    H     |     3.5 hrs      |      hrs     |         |
+| Migration    |    L     |     2 hrs      |      hrs     |        |
+| CSS Styling |    H     |     3.5 hrs      |      hrs     |          |
+| TOTAL               |      29hrs    |     6 hrs      |          |          |
 
 
 
