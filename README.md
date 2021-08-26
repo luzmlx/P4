@@ -1,6 +1,6 @@
 
 
-# PROJECT 4 README <!-- omit in toc -->
+# SweetTreats <!-- omit in toc -->
 
 <br>
 
@@ -81,6 +81,7 @@ src
       |__ SignIn.jsx
       |__ Register.jsx
 |__ services/
+      |__ ApiConfig
 
 ```
 
