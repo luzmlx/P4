@@ -60,12 +60,8 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
-<<<<<<< HEAD
-    bootsnap (1.8.1)
-=======
     bcrypt (3.1.16)
     bootsnap (1.8.0)
->>>>>>> f8277168dce7c6c2edd109765c9882f1be02c105
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
