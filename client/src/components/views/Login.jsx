@@ -8,13 +8,15 @@ export default function Login(props) {
         password: ''
 
     })
+  
+    const {email, password} = formData
 
     const {handleLogin} = props
 
     const handleChange = (e) => {
         // debugger
         const {name, value} = e.target;
-        setFormData(prevState => ({
+        setFormData((prevState) => ({
             ...prevState,
         [name]: value
         }))
@@ -30,7 +32,7 @@ export default function Login(props) {
                 <input name='email' 
                 placeholder='Email'
                  type="text" 
-                 value={formData.email}
+                 value={email}
                  onChange={handleChange}/>
             </label>
             <label>
@@ -38,7 +40,7 @@ export default function Login(props) {
                 <input name='password'
                 placeholder='Password'
                 type="password"
-                value={formData.password} 
+                value={password} 
                 onChange={handleChange}/>
             </label>
             <button>Sign In</button>

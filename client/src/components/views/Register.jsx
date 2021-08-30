@@ -16,7 +16,7 @@ export default function Register(props) {
     const handleChange = (e) => {
         // debugger
         const {name, value} = e.target;
-        setFormData(prevState => ({
+        setFormData((prevState) => ({
             ...prevState,
         [name]: value
         }))
