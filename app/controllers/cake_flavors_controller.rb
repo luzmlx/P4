@@ -38,7 +38,7 @@ class CakeFlavorsController < ApplicationController
   # def destroy
   #   @cake_flavor.destroy
   # end
-
+ # GET '/cakes/1/cake_flavors/2'
   def add_to_cake
     @cake = Cake.find(params[:cake_id])
     @cake.cake_flavors << @cake_flavor
