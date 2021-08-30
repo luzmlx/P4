@@ -1,31 +1,46 @@
 import { Switch, Route, useHistory } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Layout from './components/layout/Layout';
 import Login from './components/views/Login';
-import {loginUser, registerUser} from './services/auth'
+import {loginUser, registerUser, verifyUser, removeToken} from './services/auth'
 import Register from './components/views/Register';
 
 function App() {
 
-  const [user, setUser] = useState(null)
-  const history = useHistory
+  const [currentUser, setCurrentUser] = useState(null)
+  const history = useHistory()
 
-  const handleLogin = async(loginData) => {
-    const userData = await loginUser(loginData)
-    setUser(userData)
+  useEffect(() => {
+    const handleVerify = async () => {
+      const userData = await verifyUser()
+      setCurrentUser(userData)
+    }
+    handleVerify()
+  }, [])
+
+  const handleLogin = async(formData) => {
+    const userData = await loginUser(formData)
+    setCurrentUser(userData)
     history.push('/')
   }
 
-  const handleRegister = async(registerData) => {
-    const userData = await registerUser(registerData)
-    setUser(userData)
+  const handleRegister = async(formData) => {
+    const userData = await registerUser(formData)
+    setCurrentUser(userData)
+    history.push('/')
+  }
+
+  const handleLogout = () => {
+    setCurrentUser(null)
+    localStorage.removeItem('authToken')
+    removeToken()
     history.push('/')
   }
 
   return (
     <div className="App">
-      <Layout user={user}>
+      <Layout currentUser={currentUser} handleLogout={handleLogout}>
         <Switch>
 
           {/* Make Product Views */}
