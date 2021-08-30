@@ -1,0 +1,2 @@
+class CakeFlavor < ApplicationRecord
+end
