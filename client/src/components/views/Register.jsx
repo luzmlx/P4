@@ -29,7 +29,7 @@ export default function Register(props) {
             <h3>Register</h3>
             <label>
             
-                <input name = 'firstName'
+                <input name = 'first_name'
                 placeholder='First Name'
                  type="text" 
                  value={formData.first_name}
@@ -38,7 +38,7 @@ export default function Register(props) {
 
             <label>
             
-                <input name='lastName' 
+                <input name='last_name' 
                 placeholder='Last Name'
                  type="text" 
                  value={formData.last_name}
