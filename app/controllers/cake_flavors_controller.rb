@@ -1,5 +1,6 @@
 class CakeFlavorsController < ApplicationController
-  before_action :set_cake_flavor, only: [:show, :update, :destroy]
+  # deleted :show, :update, :destroy,
+  before_action :set_cake_flavor, only: [:add_to_cake] 
 
   # GET /cake_flavors
   def index
@@ -9,37 +10,40 @@ class CakeFlavorsController < ApplicationController
   end
 
   # GET /cake_flavors/1
-  def show
-    render json: @cake_flavor
-  end
+  # def show
+  #   render json: @cake_flavor
+  # end
 
   # POST /cake_flavors
-  def create
-    @cake_flavor = CakeFlavor.new(cake_flavor_params)
+  # def create
+  #   @cake_flavor = CakeFlavor.new(cake_flavor_params)
 
-    if @cake_flavor.save
-      render json: @cake_flavor, status: :created, location: @cake_flavor
-    else
-      render json: @cake_flavor.errors, status: :unprocessable_entity
-    end
-  end
+  #   if @cake_flavor.save
+  #     render json: @cake_flavor, status: :created, location: @cake_flavor
+  #   else
+  #     render json: @cake_flavor.errors, status: :unprocessable_entity
+  #   end
+  # end
 
   # PATCH/PUT /cake_flavors/1
-  def update
-    if @cake_flavor.update(cake_flavor_params)
-      render json: @cake_flavor
-    else
-      render json: @cake_flavor.errors, status: :unprocessable_entity
-    end
-  end
+  # def update
+  #   if @cake_flavor.update(cake_flavor_params)
+  #     render json: @cake_flavor
+  #   else
+  #     render json: @cake_flavor.errors, status: :unprocessable_entity
+  #   end
+  # end
 
   # DELETE /cake_flavors/1
-  def destroy
-    @cake_flavor.destroy
-  end
+  # def destroy
+  #   @cake_flavor.destroy
+  # end
 
-  def add_to_cake_flavors
-    
+  def add_to_cake
+    @cake = Cake.find(params[:cake_id])
+    @cake.cake_flavors << @cake_flavor
+
+    render json: @cake, include: :cake_flavors
   end
 
   private
@@ -49,7 +53,7 @@ class CakeFlavorsController < ApplicationController
     end
 
     # Only allow a list of trusted parameters through.
-    def cake_flavor_params
-      params.require(:cake_flavor).permit(:name)
-    end
+    # def cake_flavor_params
+    #   params.require(:cake_flavor).permit(:name)
+    # end
 end
