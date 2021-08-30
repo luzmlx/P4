@@ -1,4 +1,4 @@
-import api from './api-config'
+import api from './apiConfig'
 
 export const getAllFlavors = async () => {
     const res = await api.get('/cake_flavors')
