@@ -1,22 +1,31 @@
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, useHistory } from 'react-router-dom';
 import { useState } from 'react';
 import './App.css';
 import Layout from './components/layout/Layout';
 import Login from './components/views/Login';
-import {loginUser} from './services/auth'
+import {loginUser, registerUser} from './services/auth'
+import Register from './components/views/Register';
 
 function App() {
 
   const [user, setUser] = useState(null)
+  const history = useHistory
 
   const handleLogin = async(loginData) => {
     const userData = await loginUser(loginData)
     setUser(userData)
+    history.push('/')
+  }
+
+  const handleRegister = async(registerData) => {
+    const userData = await registerUser(registerData)
+    setUser(userData)
+    history.push('/')
   }
 
   return (
     <div className="App">
-      <Layout>
+      <Layout user={user}>
         <Switch>
 
           {/* Make Product Views */}
@@ -31,7 +40,7 @@ function App() {
 
           {/* Make Register View */}
           <Route path='/register'>
-              <h2>Register</h2>
+              <Register handleRegister={handleRegister} />
           </Route>
           {/* Homepage */}
           <Route path='/'>
