@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :cakes
   has_secure_password
 
   validates :first_name, presence: true, uniqueness: true

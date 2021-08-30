@@ -1,5 +1,7 @@
 class CakesController < ApplicationController
   before_action :set_cake, only: [:show, :update, :destroy]
+  # Make sure someone is logged in before they create something while also giving accurate user 
+  before_action :authorize_request, only: [:create, :update, :destroy]
 
   # GET /cakes
   def index
@@ -16,9 +18,10 @@ class CakesController < ApplicationController
   # POST /cakes
   def create
     @cake = Cake.new(cake_params)
+    @cake.user = @current_user
 
     if @cake.save
-      render json: @cake, status: :created, location: @cake
+      render json: @cake, status: :created
     else
       render json: @cake.errors, status: :unprocessable_entity
     end
