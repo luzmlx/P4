@@ -4,8 +4,8 @@ import { useState } from 'react';
 export default function Register(props) {
 
     const [formData, setFormData] = useState({
-        firstName: '',
-        lastName: '',
+        first_name: '',
+        last_name: '',
         email: '',
         password: ''
 
@@ -29,19 +29,19 @@ export default function Register(props) {
             <h3>Register</h3>
             <label>
             
-                <input name='first' 
+                <input name = 'firstName'
                 placeholder='First Name'
                  type="text" 
-                 value={formData.firstName}
+                 value={formData.first_name}
                  onChange={handleChange}/>
             </label>
 
             <label>
             
-                <input name='last' 
+                <input name='lastName' 
                 placeholder='Last Name'
                  type="text" 
-                 value={formData.lastName}
+                 value={formData.last_name}
                  onChange={handleChange}/>
             </label>
 
