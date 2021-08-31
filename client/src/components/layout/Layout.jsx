@@ -3,33 +3,30 @@ import { Link } from 'react-router-dom'
 import './layout.css'
 
 export default function Layout(props) {
-
-const {user} = props
+const { currentUser, handleLogout} = props
 
     return (
         <header>
             <Link to='/' className='linktohome'>SweetTreats</Link>
             { 
-            user ? (
+            currentUser ? (
                 <div>
-                    <p>{user.firstName}</p>
-                    <button>Logout</button>
+                    <p>{currentUser.first_name}</p>
+                    <button onClick={handleLogout}>Logout</button>
                 </div>
             ) : (
                 <div>
-            <Link to='/products'>Products</Link>
+            
             <Link to='/login'> Login </Link>
             <Link to='/register'> Register</Link>
                 </div>
             )
             }
-            {/* gives a line mucho cool */}
-            <hr />
 
-            {user && (
+            {currentUser && (
                 <div>
-                    <Link to='products'>Cakes</Link>
-                    
+                    <Link to='products'>Products</Link>
+                    <hr />
                 </div>
             )}
 

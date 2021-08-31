@@ -2,9 +2,12 @@ import { Switch, Route, useHistory } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './App.css';
 import Layout from './components/layout/Layout';
-import Login from './components/views/Login';
+import Login from './components/views/Login/Login';
 import {loginUser, registerUser, verifyUser, removeToken} from './services/auth'
-import Register from './components/views/Register';
+import Register from './components/views/Register/Register';
+import MainPage from './components/views/MainPage/MainPage';
+import Products from './components/views/Products/Products';
+import Footer from './components/views/Footer/Footer';
 
 function App() {
 
@@ -35,7 +38,7 @@ function App() {
     setCurrentUser(null)
     localStorage.removeItem('authToken')
     removeToken()
-    history.push('/')
+    // history.push('/')
   }
 
   return (
@@ -45,7 +48,7 @@ function App() {
 
           {/* Make Product Views */}
         <Route path='/products'>
-              <h2>Products</h2>
+              <Products />
           </Route>
 
           {/* Make Login View */}
@@ -59,24 +62,10 @@ function App() {
           </Route>
           {/* Homepage */}
           <Route path='/'>
-          <h1>Welcome Block </h1>
-        <hr />
-        <h1>View Menu Block</h1>
-        <hr />
-        <h1>Contact Info Block</h1>
-        <hr />
-        <h1> Footer</h1>
-        <hr />
+          <MainPage />
           </Route>
         </Switch>
-        {/* <h1>Welcome Block </h1>
-        <hr />
-        <h1>View Menu Block</h1>
-        <hr />
-        <h1>Contact Info Block</h1>
-        <hr />
-        <h1> Footer</h1>
-        <hr /> */}
+        <Footer/>
       </Layout>
     </div>
   );
