@@ -2,6 +2,9 @@
 
 # SweetTreats <!-- omit in toc -->
 
+**Deployed Site**
+https://sweettreatss.netlify.app
+
 <br>
 
 ## Overview
@@ -19,7 +22,7 @@ MVP
 
   -Full CRUD
   
-  -Create User(Customer), Sign In, Sign Out
+  -Create User, Sign In, Sign Out
   
   -Build Ruby on Rails server
   
