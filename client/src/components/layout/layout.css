@@ -2,4 +2,86 @@
     color: black;
     text-decoration: none;
     font-size: 24px;
+    left: 0;
+}
+.productslink {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.loginlink {
+    color: black;
+    text-decoration: none;
+
+}
+.registerlink {
+    color: black;
+    text-decoration: none;
+}
+/* mobile devices */
+@media screen and (max-width: 480px) {
+    .linktohome {
+        border: groove;
+        width: 40%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .first-div {
+        
+        display: flex;
+        justify-content: space-around;
+        /* margin-left: 145px; */
+        width: 58%;
+        position: relative;
+        left: 155px;
+        bottom: 34px;
+        height: 29px;
+    }
+    .userfirstname {
+  
+        height: 20px;
+        width: 80%;
+        display: flex;
+        position: relative;
+        bottom: 10px;
+    }
+    .logout-button {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-self: center;
+        right: 4px;
+        width: 60px;
+        height: 20px;
+    }
+    .second-div {
+        
+        height: 30px;
+        position: relative;
+        bottom: 35px;
+        
+    }
+    .loginlink {
+        border-style: groove;
+        border-radius: 6px;
+        display: flex;
+        width: 20%;
+        position: relative;
+        left: 208px;
+        bottom: 30px;
+        justify-content: space-around;
+
+    }
+    .registerlink {
+        border-style: solid;
+        border-radius: 6px;
+        display: flex;
+        width: 20%;
+        position: relative;
+        left: 290px;
+        bottom: 54px;
+        justify-content: space-around;
+    }
 }

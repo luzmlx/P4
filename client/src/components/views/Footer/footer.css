@@ -1,10 +1,28 @@
 
+.footerdiv {
+  bottom: 0;
+  border: groove;
+    color: #707070;
+    height: 4em;
+    /* left: 0; */
+    position: relative; 
+    font-size: small;
+    width: 98%;
 
+}
 
 @media (prefers-reduced-motion: no-preference) {
 
 .footerdiv {
-    border-style: double;
+  bottom: 0;
+  border: groove;
+    color: #707070;
+    height: 4em;
+    /* left: 0; */
+    position: fixed; 
+    font-size: small;
+    width: 98%;
+
 }
 
 }

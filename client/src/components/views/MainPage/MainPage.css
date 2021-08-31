@@ -1,0 +1,33 @@
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+
+.maindiv {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        width: 100%;
+        
+    }
+
+ .welcome {
+      border-style: groove;
+      height: 750px;
+      
+    }
+ .img {
+     border-style: groove;
+     /* margin-left: 60px;
+     margin-right: 60px; */
+     width: 275px;
+    height: 300px;
+    
+ }
+ .contactinfo {
+      border-style: groove;    
+      height: 150px;
+      justify-content: center;
+ }
+    
+    }

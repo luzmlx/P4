@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import './login.css'
 
 export default function Login(props) {
 
@@ -22,28 +23,36 @@ export default function Login(props) {
         }))
     }
     return (
-        <form onSubmit={(e) => {
+        <div className='login-div'>
+        <form 
+        className='login-form'
+        onSubmit={(e) => {
             e.preventDefault()
             handleLogin(formData)
         }}>
-            <h3>Login</h3>
-            <label>
+            <h3 className='logintext'>Login</h3>
+            <label className='email-label'>
             
-                <input name='email' 
+                <input 
+                className='email-input'
+                name='email' 
                 placeholder='Email'
                  type="text" 
                  value={email}
                  onChange={handleChange}/>
             </label>
-            <label>
+            <label className='password-label'>
                 
-                <input name='password'
+                <input 
+                className='password-input'
+                name='password'
                 placeholder='Password'
                 type="password"
                 value={password} 
                 onChange={handleChange}/>
             </label>
-            <button>Sign In</button>
+            <button className='signin-button'>Sign In</button>
         </form>
+        </div>
     )
 }
