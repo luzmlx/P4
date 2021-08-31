@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   resources :users, only: :create
   resources :cake_flavors, only: :index
   resources :cakes
+
+  get '/cakes/:cake_id/cake_flavors/:id', to: 'cake_flavors#add_to_cake'
 end

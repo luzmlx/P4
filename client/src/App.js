@@ -8,6 +8,7 @@ import Register from './components/views/Register/Register';
 import MainPage from './components/views/MainPage/MainPage';
 import Products from './components/views/Products/Products';
 import Footer from './components/views/Footer/Footer';
+import CakePage from './components/views/CakePage/CakePage';
 
 function App() {
 
@@ -46,10 +47,14 @@ function App() {
       <Layout currentUser={currentUser} handleLogout={handleLogout}>
         <Switch>
 
-          {/* Make Product Views */}
+        <Route path='/products/cakes'>
+            <CakePage currentUser={currentUser}/>
+          </Route>
+          
         <Route path='/products'>
               <Products />
           </Route>
+
 
           {/* Make Login View */}
           <Route path='/login'>
@@ -61,7 +66,7 @@ function App() {
               <Register handleRegister={handleRegister} />
           </Route>
           {/* Homepage */}
-          <Route path='/'>
+          <Route exact path='/'>
           <MainPage />
           </Route>
         </Switch>
