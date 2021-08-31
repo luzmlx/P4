@@ -9,35 +9,40 @@
 
 
 @media (prefers-reduced-motion: no-preference) {
-
+   .register-div {
+       border-style: solid;
+        width: 99%;
+        background-color: #FBDBDC;
+        position: relative;
+        bottom: 0px;
+    }
     
     input {
-        
-        align-self: center;
-        padding: 5px 0;
-        font-size: 1rem;
-        letter-spacing: 1px;
+        justify-self: center;
+        padding: 15px 0;
+       font-size: 1rem;
+       letter-spacing: 1px; 
         margin-bottom: 15px;
-        border: none;
-        border-bottom: 1px solid #fff;
-        outline: none;
-        background-color: transparent;
-        color: inherit;
+       border: none;
+        border-bottom: 1px solid #fff; 
+       outline: none;
+       background-color: transparent;
+       color: inherit; 
+       position: relative;
+       bottom: 40px;
     
     }
     
-    
-    .register-div {
-        
-        border: none;
-        display: flex;
-        margin-top: 250px;
-        margin-bottom: 100px;
-        
+    h3 {
+        color: #fbb7b8;
+        width: 60px;
+        position: relative;
+        align-self: center;
+        bottom: 60px;
     }
     
     .register-form {
-        background: linear-gradient(90deg, rgba(5,100,138,1) 0%, rgba(43,163,212,1) 82%);
+        background: #ec5b60;
         display: flex;
         flex-direction: column;
         margin: 30px;
@@ -49,19 +54,6 @@
         padding-bottom: 60px;
         
     }
-    
-    .signup-button {
-        border: none; 
-        border-radius: 10px;
-       background: linear-gradient(90deg, rgba(255,127,80,1) 20%, rgba(255,212,150,1) 80%);
-        width: 150px;
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        cursor: pointer;
-        
-    }
-    
     
     
     }

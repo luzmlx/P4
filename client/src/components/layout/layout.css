@@ -37,9 +37,11 @@ div.aboutdescription {
 }
 .loginlink {
     border-style: solid;
+    border-color: #EC5B60;
     border-radius: 6px;
     background-color: #EC5B60;
     color: black;
+    border-width: 3px;
     text-decoration: none;
     position: relative;
     left: 200px;
@@ -48,6 +50,7 @@ div.aboutdescription {
 }
 .registerlink {
     border-style: solid;
+    border-color: #EC5B60;
     border-radius: 6px;
     background-color: #EC5B60;
     color: black;
@@ -122,6 +125,7 @@ div.aboutdescription {
     }
     .loginlink {
         border-style: solid;
+        border-color: #EC5B60;
     border-radius: 6px;
     background-color: #EC5B60;
     color: black;
@@ -133,6 +137,7 @@ div.aboutdescription {
     }
     .registerlink {
         border-style: solid;
+        border-color: #EC5B60;
     border-radius: 6px;
     background-color: #EC5B60;
     color: black;
