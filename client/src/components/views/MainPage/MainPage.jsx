@@ -16,7 +16,7 @@ export default function MainPage () {
                 24th birthday.<br /> He loves sweets and matcha so I made a triple layered dark chocolate cake 
                 with matcha frosting topped with strawberries. 
                 
-                <img class='img' src='https://i.imgur.com/V4OFA8Z.jpg' alt='matcha cake'/>
+                <img className='img' src='https://i.imgur.com/V4OFA8Z.jpg' alt='matcha cake'/>
             
                 </p>
             </div>
