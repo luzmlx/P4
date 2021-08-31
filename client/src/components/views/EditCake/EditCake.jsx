@@ -20,8 +20,11 @@ export default function EditCake(props) {
             image: cakeItem.image,
             price: cakeItem.price,})
         }
-        prefillFormData()
-    }, [])
+
+        if (cakes.length) {
+            prefillFormData()
+        }
+    }, [cakes, id])
 
     const handleChange = (e) => {
         // debugger
