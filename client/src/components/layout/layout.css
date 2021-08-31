@@ -1,8 +1,14 @@
 .whole-container {
     background-color: #FBDBDC;
-    height: 70px;
+    height: 75px;
 }
-
+div.welcome {
+    background-color: #FBDBDC;
+    border-style: solid;
+}
+div.aboutdescription {
+    position: relative;
+}
 .linktohome {
     color: #EC5B60;
     font-weight: 600;
@@ -30,13 +36,25 @@
     bottom: 35px;
 }
 .loginlink {
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #EC5B60;
     color: black;
     text-decoration: none;
+    position: relative;
+    left: 200px;
+    top: 20px;
 
 }
 .registerlink {
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #EC5B60;
     color: black;
     text-decoration: none;
+    position: relative;
+    left: 210px;
+    top: 20px;
 }
 /* mobile devices */
 @media screen and (max-width: 480px) {
@@ -44,10 +62,6 @@
         background-color: #FBDBDC;
         height: 85px;
     }
-    /* .productslink {
-        position: relative;
-        right: 20px;
-    } */
     div.welcome {
         background-color: #FBDBDC;
     }
@@ -107,24 +121,24 @@
         
     }
     .loginlink {
-        border-style: groove;
-        border-radius: 6px;
-        display: flex;
-        width: 20%;
-        position: relative;
-        left: 208px;
-        bottom: 30px;
-        justify-content: space-around;
+        border-style: solid;
+    border-radius: 6px;
+    background-color: #EC5B60;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 110px;
+    top: 35px;
 
     }
     .registerlink {
         border-style: solid;
-        border-radius: 6px;
-        display: flex;
-        width: 20%;
-        position: relative;
-        left: 290px;
-        bottom: 54px;
-        justify-content: space-around;
+    border-radius: 6px;
+    background-color: #EC5B60;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 120px;
+    top: 35px;
     }
 }
