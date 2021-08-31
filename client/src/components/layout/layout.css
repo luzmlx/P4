@@ -1,32 +1,87 @@
+.whole-container {
+    background-color: #FBDBDC;
+    height: 75px;
+}
+div.welcome {
+    background-color: #FBDBDC;
+    border-style: solid;
+}
+div.aboutdescription {
+    position: relative;
+}
 .linktohome {
-    color: black;
+    color: #EC5B60;
+    font-weight: 600;
     text-decoration: none;
     font-size: 24px;
-    left: 0;
+    position: relative;
+    right: 220px;
 }
 .productslink {
-    color: black;
+    color: #EC5B60;
+    font-weight: 600;
     text-decoration: none;
     font-size: 20px;
+    position: relative;
+    bottom: 55px;
+    right: 250px;
     
 }
-
+.logout-button {
+    /* border-style: dashed; */
+    background-color: #EC5B60;
+    border-radius: 6px;
+    position: relative;
+    left: 250px;
+    bottom: 35px;
+}
 .loginlink {
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #EC5B60;
     color: black;
     text-decoration: none;
+    position: relative;
+    left: 200px;
+    top: 20px;
 
 }
 .registerlink {
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #EC5B60;
     color: black;
     text-decoration: none;
+    position: relative;
+    left: 210px;
+    top: 20px;
 }
 /* mobile devices */
 @media screen and (max-width: 480px) {
+    .whole-container {
+        background-color: #FBDBDC;
+        height: 85px;
+    }
+    div.welcome {
+        background-color: #FBDBDC;
+    }
     .linktohome {
-        border: groove;
-        width: 40%;
+        /* border-style: dashed; */
+        width: 35%;
         display: flex;
         align-items: flex-start;
+        position: relative;
+        right: 0px;
+    }
+    .productslink {
+        color: #EC5B60;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+        top: 35px;
+        right: 135px;
+        
     }
     .first-div {
         
@@ -40,21 +95,23 @@
         height: 29px;
     }
     .userfirstname {
-  
+        /* border-style: dashed; */
+        color: #EC5B60;
         height: 20px;
-        width: 80%;
+        width: 60%;
         display: flex;
         position: relative;
-        bottom: 10px;
+        bottom: 4px;
+        right: 10px;
     }
     .logout-button {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-self: center;
-        right: 4px;
-        width: 60px;
-        height: 20px;
+        background-color: #EC5B60;
+    border-radius: 6px;
+    position: relative;
+    left: 0px;
+    top: 60px;
+
+    
     }
     .second-div {
         
@@ -64,24 +121,24 @@
         
     }
     .loginlink {
-        border-style: groove;
-        border-radius: 6px;
-        display: flex;
-        width: 20%;
-        position: relative;
-        left: 208px;
-        bottom: 30px;
-        justify-content: space-around;
+        border-style: solid;
+    border-radius: 6px;
+    background-color: #EC5B60;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 110px;
+    top: 35px;
 
     }
     .registerlink {
         border-style: solid;
-        border-radius: 6px;
-        display: flex;
-        width: 20%;
-        position: relative;
-        left: 290px;
-        bottom: 54px;
-        justify-content: space-around;
+    border-radius: 6px;
+    background-color: #EC5B60;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 120px;
+    top: 35px;
     }
 }
