@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getCake } from '../services/cakes';
-import { addFlavorToCake } from '../services/cakeflavors';
+import { getCake } from '../../../services/cakes';
+import { addFlavorToCake } from '../../../services/cakeflavors';
 
 export default function CakeDetail(props) {
   const [cakeItem, setCakeItem] = useState(null);
@@ -32,7 +32,8 @@ export default function CakeDetail(props) {
   return (
     <div>
       <h3>{cakeItem?.name}</h3>
-      {cakeItem?.cakeflavors.map((cakeflavor) => (
+      <p>{cakeItem?.description}</p>
+      {cakeItem?.cake_flavors.map((cakeflavor) => (
         <p key={cakeflavor.id}>{cakeflavor.name}</p>
       ))}
       {/* flavor drop down */}

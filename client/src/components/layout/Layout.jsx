@@ -26,7 +26,7 @@ const { currentUser, handleLogout} = props
 
             {currentUser && (
                 <div className='second-div'>
-                    <Link to='products' className='productslink'>Products</Link>
+                    <Link to='/products' className='productslink'>Products</Link>
                     
                 </div>
             )}

@@ -10,7 +10,7 @@ export default function CakeCreate(props) {
     const { name, description, image, price} = formData
     const { handleCreate } = props
 
-    const handlehange = (e) => {
+    const handleChange = (e) => {
         const { name, value } = e.target
         setFormData((prevState) => ({
             ...prevState,
