@@ -9,7 +9,7 @@ https://sweettreatss.netlify.app
 
 ## Overview
 
-**Sweet Treats** is a bakery application where you can add a cake item and update it.
+**Sweet Treats** is a bakery application where you can add a cake item and update it. You do have to be registered in order to make edits and view the cakes
 
 
 <br>
