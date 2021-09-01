@@ -7,7 +7,7 @@
     bottom: 0px;
 }
 .cake1div {
-    border-style: solid;
+    /* border-style: solid; */
     border-color: #EC5B60;
     display: flex;
     justify-content: space-around;
@@ -50,7 +50,7 @@ p.cakename-link {
 
 @media screen and (max-width: 480px) {
     .cakes-div {
-        border-style: solid;
+        /* border-style: solid; */
     }
     .cakename-link {
         border-style: solid;
