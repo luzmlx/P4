@@ -1,0 +1,28 @@
+.h3text {
+    background: #fbb7b8;
+color: #ec5b60;
+position: relative;
+width: 100%;
+left: 0px;
+bottom: 18px;
+height: 30px;
+}
+.cakepage-div {
+    padding-bottom: 600px;
+}
+
+@media screen and (max-width: 480px){
+    .h3text {
+        background: #fbb7b8;
+  color: #ec5b60;
+  position: relative;
+  width: 100%;
+  left: 0px;
+  bottom: 18px;
+  height: 30px;
+    }
+    .cakepage-div {
+        padding-bottom: 600px;
+    }
+    
+}

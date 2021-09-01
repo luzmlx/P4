@@ -1,0 +1,63 @@
+
+.cakes-div {
+    /* border-style: solid; */
+    /* border-color: red; */
+    padding-top: 130px;
+    position: relative;
+    bottom: 0px;
+}
+.cake1div {
+    border-style: solid;
+    border-color: #EC5B60;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40%;
+    position: relative;
+    bottom: 100px;
+
+}
+.third-div {
+    /* border-style: solid; */
+    /* border-color: blueviolet; */
+}
+.cakename-link {
+    border-style: solid;
+        border-color: #EC5B60;
+    border-radius: 4px;
+    background-color: #EC5B60;
+    color: black;
+    text-decoration: none;
+}
+.editcake-button {
+    border-style: solid;
+    position: relative;
+    top: 15px;
+    background-color: #EC5B60;
+    border-radius: 6px;
+}
+.newcake-button {
+    position: absolute;
+    background-color: #EC5B60;
+    border-radius: 6px;
+    
+    /* bottom: 610px; */
+    /* left: 470px; */
+   
+}
+
+@media screen and (max-width: 480px) {
+    .cakes-div {
+        border-style: solid;
+    }
+    .cakename-link {
+        border-style: solid;
+    }
+    .editcake-button {
+        border-style: solid;
+    }
+    .newcake-button {
+        border-style: solid;
+    }
+}

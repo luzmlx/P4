@@ -6,6 +6,7 @@ import Cakes from "../Cakes/Cakes";
 import EditCake from "../EditCake/EditCake";
 import CakeCreate from '../CakeCreate/CakeCreate'
 import CakeDetail from "../CakeDetail/CakeDetail";
+import './cakepage.css'
 
 export default function CakePage(props) {
   const [cakes, setCakes] = useState([]);
@@ -50,11 +51,10 @@ export default function CakePage(props) {
   }
 
   return (
-    <div>
-      CakePage
+    <div className='cakepage-div'>
+      <h3 className='h3text'>View All Cakes</h3>
       <Switch>
         <Route path="/products/cakes/cake_flavors">
-          <h3>Flavors</h3>
         </Route>
 
         <Route path="/products/cakes/:id/edit">

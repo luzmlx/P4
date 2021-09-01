@@ -10,8 +10,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
    .register-div {
-       border-style: solid;
-        width: 99%;
+       /* border-style: solid; */
+        width: 100%;
         background-color: #FBDBDC;
         position: relative;
         bottom: 0px;

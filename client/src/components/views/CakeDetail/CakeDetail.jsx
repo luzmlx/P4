@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import { getCake } from '../../../services/cakes';
 import { addFlavorToCake } from '../../../services/cakeflavors';
+import './cakedetail.css'
 
 export default function CakeDetail(props) {
   const [cakeItem, setCakeItem] = useState(null);
   const [selectedFlavor, setSelectedFlavor] = useState('');
   const { id } = useParams();
   const { cakeflavors } = props;
+  const history = useHistory()
 
   useEffect(() => {
     const fetchCakeItem = async () => {
@@ -27,12 +29,14 @@ export default function CakeDetail(props) {
     e.preventDefault();
     const cakeItem = await addFlavorToCake(id, selectedFlavor);
     setCakeItem(cakeItem);
+    history.push('/products/cakes')
   };
 
   return (
     <div>
       <h3>{cakeItem?.name}</h3>
       <p>{cakeItem?.description}</p>
+      <img src={cakeItem?.image} alt='cakeimg'></img>
       {cakeItem?.cake_flavors.map((cakeflavor) => (
         <p key={cakeflavor.id}>{cakeflavor.name}</p>
       ))}

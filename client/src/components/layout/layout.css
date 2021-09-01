@@ -1,10 +1,15 @@
 .whole-container {
     background-color: #FBDBDC;
     height: 75px;
+    border: none;
+        border-bottom: 1px solid #ec5b60; 
 }
 div.welcome {
     background-color: #FBDBDC;
-    border-style: solid;
+    position: relative;
+}
+.first-div {
+    background-color: #FBDBDC;
 }
 div.aboutdescription {
     position: relative;
@@ -87,7 +92,7 @@ div.aboutdescription {
         
     }
     .first-div {
-        
+        background-color: #FBDBDC;
         display: flex;
         justify-content: space-around;
         /* margin-left: 145px; */

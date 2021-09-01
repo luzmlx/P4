@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import './editcake.css'
 
 export default function EditCake(props) {
   const [formData, setFormData] = useState({
@@ -41,14 +42,17 @@ export default function EditCake(props) {
 
   return (
     <form
+    className='editform'
       onSubmit={(e) => {
         e.preventDefault();
         handleEdit(id, formData);
       }}
     >
       <label>
-        Name:
+      <p>Name</p>
         <input
+        placeholder='Name'
+        className='nameinput'
           type="text"
           name="name"
           value={formData.name}
@@ -56,17 +60,22 @@ export default function EditCake(props) {
         />
       </label>
       <label>
-        Description:
+      <p>Description</p>
         <input
+        placeholder='Description'
+        className='descriptioninput'
           type="text"
           name="description"
           value={formData.description}
           onChange={handleChange}
         />
+        
       </label>
       <label>
-        Image:
+      <p>Image</p>
         <input
+        placeholder='Image'
+        className='imageinput'
           type="text"
           name="image"
           value={formData.image}
@@ -74,16 +83,19 @@ export default function EditCake(props) {
         />
       </label>
       <label>
-        Price:
+      <p>Price</p>
         <input
+        placeholder='Price'
+        className='priceinput'
           type="number"
           name="price"
           value={formData.price}
           onChange={handleChange}
         />
       </label>
-      <button>Edit</button>
+      <button className='edit-button'>Edit</button>
       <button
+      className='delete-button'
         onClick={(e) => {
           e.preventDefault();
           handleDelete(id);

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './cakecreate.css'
 
 export default function CakeCreate(props) {
     const [formData, setFormData] = useState({
@@ -20,34 +21,43 @@ export default function CakeCreate(props) {
 
     return(
         <form
+        className='createform'
         onSubmit={(e) => {
             e.preventDefault();
             handleCreate(formData)
         }}>
-            <h3>Create Cake</h3>
-            <label>
-                Name:
+            <h3 className='h3create'>Create Cake</h3>
+            <label className='createlabel'>
+                
                 <input type='text'
+                placeholder='Name'
                 name='name'
                 value={name}
-                onChange={handleChange} />
-                Description:
+                onChange={handleChange}
+                className='name-input' />
+                
                 <input type='text'
+                className='description-input'
+                placeholder='Description'
                 name='description'
                 value={description}
                 onChange={handleChange} />
-                Image:
+                
                 <input type='text'
+                placeholder='Image'
+                className='image-input'
                 name='image'
                 value={image}
                 onChange={handleChange} />
-                Price:
+                
                 <input type='number'
+                placeholder='Price'
+                className='price-input'
                 name='price'
                 value={price}
                 onChange={handleChange} />
             </label>
-            <button>
+            <button className='create-button'>
                 Create Cake
             </button>
         </form>
