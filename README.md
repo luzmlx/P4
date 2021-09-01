@@ -97,9 +97,9 @@ src
 | Navbar    |    L     |     .5 hrs      |      1hrs     |     1hrs    |
 | Footer |    H     |     .5 hrs      |      2hrs     |      2hrs    |
 | Homepage    |    L     |     2 hrs      |      2hrs     |     2hrs    |
-| SignIn/Register |    H     |     2 hrs      |      hrs     |          |
-| Sign Out    |    L     |     2 hrs      |      hrs     |     hrs    |
-| ProductPage |    H     |     2 hrs      |      hrs     |          |
+| SignIn/Register |    H     |     2 hrs      |      3hrs     |    3hrs      |
+| Sign Out    |    L     |     2 hrs      |      1hrs     |     1hrs    |
+| ProductPage |    H     |     2 hrs      |      2.5hrs     |   2.5hrs       |
 | Cart Page    |    L     |     2 hrs      |      hrs     |     hrs    |
 | Individual Product Pg |    H     |     2 hrs      |      hrs     |          |
 | Media Query    |    L     |     4 hrs      |      hrs     |     hrs    |
