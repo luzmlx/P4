@@ -40,7 +40,7 @@ MVP
 ### Libraries and Dependencies
 
 
-
+   
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
 |      Ruby       | Language used to create web application|
