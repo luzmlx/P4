@@ -49,9 +49,9 @@ p.cakename-link {
 }
 
 @media screen and (max-width: 480px) {
-    .cakes-div {
+    /* .cakes-div { */
         /* border-style: solid; */
-    }
+    /* } */
     .cakename-link {
         border-style: solid;
     }

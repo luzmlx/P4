@@ -144,3 +144,4 @@ https://drive.google.com/file/d/1NLrBSCbOl1LBagshOpdLcZ9Yi5ejrHC9/view?usp=shari
 
 
 ## Code Issues & Resolutions
+- I had issues with my routes so my pages were basically not going where I wanted them to go, but the TAs helped me a lot with getting that fixed and making sure I had full CRUD to ensure I graduate.
