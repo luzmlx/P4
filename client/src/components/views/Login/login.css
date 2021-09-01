@@ -113,7 +113,7 @@ input::placeholder {
     }
     .login-form {
         /* remember to change color !!!!!!!!!!!*/
-        background: #ec5b60;
+        background: #807071;
         display: flex;
         flex-direction: column;
         margin: 30px;
