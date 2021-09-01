@@ -1,3 +1,11 @@
 img {
     width: 20%;
 }
+.cakename {
+    color: #ec5b60;
+    /* border: solid; */
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    left: 0px;
+}

@@ -34,9 +34,10 @@ export default function CakeDetail(props) {
 
   return (
     <div>
-      <h3>{cakeItem?.name}</h3>
+      <h3 className='cakename'>{cakeItem?.name}</h3>
       <p>{cakeItem?.description}</p>
       <img src={cakeItem?.image} alt='cakeimg'></img>
+      <p>${cakeItem?.price}</p>
       {cakeItem?.cake_flavors.map((cakeflavor) => (
         <p key={cakeflavor.id}>{cakeflavor.name}</p>
       ))}
