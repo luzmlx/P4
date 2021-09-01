@@ -95,8 +95,8 @@ src
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
 | Navbar    |    L     |     .5 hrs      |      1hrs     |     1hrs    |
-| Footer |    H     |     .5 hrs      |      hrs     |          |
-| Homepage    |    L     |     2 hrs      |      hrs     |     hrs    |
+| Footer |    H     |     .5 hrs      |      2hrs     |      2hrs    |
+| Homepage    |    L     |     2 hrs      |      2hrs     |     2hrs    |
 | SignIn/Register |    H     |     2 hrs      |      hrs     |          |
 | Sign Out    |    L     |     2 hrs      |      hrs     |     hrs    |
 | ProductPage |    H     |     2 hrs      |      hrs     |          |
