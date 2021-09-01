@@ -100,8 +100,7 @@ src
 | SignIn/Register |    H     |     2 hrs      |      3hrs     |    3hrs      |
 | Sign Out    |    L     |     2 hrs      |      1hrs     |     1hrs    |
 | ProductPage |    H     |     2 hrs      |      2.5hrs     |   2.5hrs       |
-| Cart Page    |    L     |     2 hrs      |      hrs     |     hrs    |
-| Individual Product Pg |    H     |     2 hrs      |      hrs     |          |
+| Individual Product Pg |    H     |     2 hrs      |      2hrs     |    2hrs      |
 | Media Query    |    L     |     4 hrs      |      hrs     |     hrs    |
 | Hamburger Menu |    H     |     2 hrs      |      hrs     |          |
 | Deployment    |    L     |     1 hrs      |      hrs     |     hrs    |
