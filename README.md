@@ -138,7 +138,13 @@ https://drive.google.com/file/d/1NLrBSCbOl1LBagshOpdLcZ9Yi5ejrHC9/view?usp=shari
 ***
 
 ## Code Showcase
-
+```
+const handleCreate = async (formData) => {
+    const newCake = await postCake(formData)
+    setCakes(prevState => [...prevState, newCake])
+    history.push('/products/cakes')
+  }
+```
 
 
 ## Code Issues & Resolutions
