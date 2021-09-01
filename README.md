@@ -101,12 +101,12 @@ src
 | Sign Out    |    L     |     2 hrs      |      1hrs     |     1hrs    |
 | ProductPage |    H     |     2 hrs      |      2.5hrs     |   2.5hrs       |
 | Individual Product Pg |    H     |     2 hrs      |      2hrs     |    2hrs      |
-| Media Query    |    L     |     4 hrs      |      hrs     |     hrs    |
+| Media Query    |    L     |     4 hrs      |      5hrs     |     5hrs    |
 | Hamburger Menu |    H     |     2 hrs      |      hrs     |          |
 | Deployment    |    L     |     1 hrs      |      hrs     |     hrs    |
 | Controllers |    H     |     3.5 hrs      |      hrs     |         |
-| Migration    |    L     |     2 hrs      |      hrs     |        |
-| CSS Styling |    H     |     4 hrs      |      hrs     |          |
+| Migration    |    L     |     2 hrs      |      3hrs     |     3hrs   |
+| CSS Styling |    H     |     4 hrs      |      5hrs     |    5hrs      |
 | CRUD    |    L     |     3 hrs      |      hrs     |        |
 | Full Auth(front and backend) |    H     |     4 hrs      |      hrs     |          |
 | Testing |    H     |     1 hrs      |      hrs     |          |
